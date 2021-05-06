@@ -65,10 +65,23 @@ nav span.long_menu  { display: inline; }
 <?php 
     include('filters/rlb_splitmenu.class.php'); 
 ~~~
+3. Make sure Perch will use filters and add this to the Perch config file
+~~~
+ // perch/config/config.php 
+ 
+ // Add this line ad the bottom somewhere of the perch config.php
+ // Use the Perch filters 
+    define('PERCH_TEMPLATE_FILTERS', true);
+~~~    
 
-3. Use the filter like described in (Ad 2. and Ad 3.)  
+
+
+4. Use the filter like described in (Ad 2. and Ad 3.)  
 To get the contents of the field before the pipe character (|)  
 `<perch:pages filter="splitmenu" filterpos="first" id="pageNavText" />`  
 To get the contents of the field after the pipe character (|)    
 `<perch:pages filter="splitmenu" filterpos="second" id="pageNavText" />`  
+
+
+more information on Perch filters can be found here: [Perch Docs on field filters](https://docs.grabaperch.com/api/template-filters/)
 
