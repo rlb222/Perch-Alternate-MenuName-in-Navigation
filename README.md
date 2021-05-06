@@ -26,7 +26,7 @@ In this example I added a class around each to be able to show or hide the first
 <perch:before>
    <ul>
 </perch:before>
-		<li>
+    <li>
        <a href="<perch:pages id="pagePath" />">
         <span class="long_menu">
           <perch:pages filter="splitmenu" filterpos="first" id="pageNavText" />
@@ -63,9 +63,9 @@ nav span.long_menu  { display: inline; }
     include('filters/rlb_splitmenu.class.php'); 
 ~~~
 
-3. Use the filter like described in (Ad 2.)
-To get the contents of the field before the pipe character (|)
-`<perch:pages filter="splitmenu" filterpos="first" id="pageNavText" />
-To get the contents of the field after the pipe character (|)
-`<perch:pages filter="splitmenu" filterpos="second" id="pageNavText" />
+3. Use the filter like described in (Ad 2.)  
+To get the contents of the field before the pipe character (|)  
+`<perch:pages filter="splitmenu" filterpos="first" id="pageNavText" />`  
+To get the contents of the field after the pipe character (|)    
+`<perch:pages filter="splitmenu" filterpos="second" id="pageNavText" />`  
 
