@@ -4,6 +4,11 @@ If you want your Perch website to show a different menu-name in different situat
 
 Normally the pagename will be used to show in the navigation of a website. This filter allows you to set an alternate page-name for diffent situations.
 For example: Show a smaller menu-name on smaller screens.   
+  
+    
+more information on Perch filters can be found here: [Perch Docs on field filters](https://docs.grabaperch.com/api/template-filters/)
+  
+    
 
 # How it works
 1. Add an alternate pagename behind the normal pagename. Like this: 'My Homepage | home'
@@ -81,7 +86,6 @@ To get the contents of the field before the pipe character (|)
 `<perch:pages filter="splitmenu" filterpos="first" id="pageNavText" />`  
 To get the contents of the field after the pipe character (|)    
 `<perch:pages filter="splitmenu" filterpos="second" id="pageNavText" />`  
-
-
-more information on Perch filters can be found here: [Perch Docs on field filters](https://docs.grabaperch.com/api/template-filters/)
+  
+  
 
