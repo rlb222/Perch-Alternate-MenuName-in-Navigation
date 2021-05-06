@@ -23,6 +23,9 @@ and add the choice for the first (filterpos="first") or the second pagename (fil
 In this example I added a class around each to be able to show or hide the first and second name in CSS.
 
 ~~~
+
+<!-- navigation template (normally perch\templates\navigation\item.html) -->
+
 <perch:before>
    <ul>
 </perch:before>
@@ -42,7 +45,7 @@ In this example I added a class around each to be able to show or hide the first
 ~~~
 
 ### Ad 3.  
-The CSS will determine what name to show according to screenwidth.
+The frontend CSS will determine what name to show according to screenwidth.
 
 ~~~
 nav span.short_menu { display: none; }
