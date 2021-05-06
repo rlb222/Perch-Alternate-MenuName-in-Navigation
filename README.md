@@ -63,7 +63,7 @@ nav span.long_menu  { display: inline; }
     include('filters/rlb_splitmenu.class.php'); 
 ~~~
 
-3. Use the filter like described in (Ad 2.)  
+3. Use the filter like described in (Ad 2. and Ad 3.)  
 To get the contents of the field before the pipe character (|)  
 `<perch:pages filter="splitmenu" filterpos="first" id="pageNavText" />`  
 To get the contents of the field after the pipe character (|)    
