@@ -1,6 +1,6 @@
 # Perch-Alternate-MenuName-in-Navigation
-a Perch filter to enable two MenuItem names (e.g. long and short name) in navigation.
-If you want your Perch website to show a different menu-name in different situations.
+a Perch filter to enable two MenuItem names (e.g. long and short name) in the navigation portion on your frontend.
+If you want your website to show a different menu-name in different situations.
 
 Normally the pagename will be used to show in the navigation of a website. This filter allows you to set an alternate page-name for diffent situations.
 For example: Show a smaller menu-name on smaller screens.   
